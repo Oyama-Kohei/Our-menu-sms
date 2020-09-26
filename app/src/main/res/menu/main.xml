@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    //ifroom= ツールバーに余裕があれば
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/ic_baseline_account_balance_24"
+        android:title="@string/home_text"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/joker"
+        android:title="@string/joker_text" />
+    <item
+        android:id="@+id/card_text"
+        android:title="@string/card_text" >
+        <menu >
+            <item
+                android:id="@+id/one"
+                android:title="@string/one_text" />
+            <item
+                android:id="@+id/two"
+                android:title="@string/two_text" />
+            <item
+                android:id="@+id/three"
+                android:title="@string/three_text" />
+        </menu>
+    </item>
+</menu>

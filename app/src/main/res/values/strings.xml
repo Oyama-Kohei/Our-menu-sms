@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Our_manu_sms</string>
+    <string name="home_text">home</string>
+    <string name="joker_text">joker</string>
+    <string name="one_text">one</string>
+    <string name="two_text">two</string>
+    <string name="three_text">three</string>
+    <string name="card_text">card</string>
+    <string name="mail_text">メールする</string>
+    <string name="sms_text">sms送信する</string>
+    <string name="error_text">送信機能が端末に存在しませんでした</string>
+</resources>
